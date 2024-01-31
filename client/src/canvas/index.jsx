@@ -7,7 +7,7 @@ const CanvasModel = () => {
   return (
     <Canvas
       shadows
-      camera={{ position: [0, 0, 0], fov: 10 }}
+      camera={{ position: [0, 0, 0], fov: 30 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <ambientLight />
