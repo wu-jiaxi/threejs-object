@@ -28,7 +28,7 @@ function Customizer() {
             {...slideAnimation("left")}
           >
             <div className="flex items-center min-h-screen">
-              <div className="editortab-container tabs">
+              <div className="editortabs-container tabs">
                 {EditorTabs.map((tab) => (
                   <Tab key={tab.name} tab={tab} handleClick={() => {}} />
                 ))}
@@ -56,7 +56,7 @@ function Customizer() {
                 key={tab.name}
                 tab={tab}
                 handleClick={() => {}}
-                isFilterTab=""
+                isFilterTab
                 isActiveTab=""
               />
             ))}
