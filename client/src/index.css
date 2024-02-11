@@ -84,7 +84,7 @@ input[type="file"] {
   backdrop-filter: blur(4px) !important;
   -webkit-backdrop-filter: blur(4px) !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
-  border-radius: 6px !important;
+  border-radius: 6.5px !important;
 }
 
 .sketch-picker > div:nth-child(3) {
